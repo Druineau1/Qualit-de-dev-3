@@ -5,4 +5,4 @@ build-job:
     stage: build
     image: maven:latest
     script:
-        -mvn clean install
+        - mvn clean install
